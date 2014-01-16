@@ -1,0 +1,91 @@
+
+# ATMega1284 boards file 
+# https://github.com/cano64/mega1284duino
+#
+# http://www.engbedded.com/fusecalc
+
+
+
+atmega1284duino_20.name=ATMega1284 (full 20MHz, boot, BOD=4V3)
+atmega1284duino_20.upload.protocol=stk500v1
+atmega1284duino_20.upload.maximum_size=126976
+atmega1284duino_20.upload.speed=57600
+atmega1284duino_20.bootloader.low_fuses=0xF7
+atmega1284duino_20.bootloader.high_fuses=0xD8
+atmega1284duino_20.bootloader.extended_fuses=0xFC
+atmega1284duino_20.bootloader.path=standard
+atmega1284duino_20.bootloader.file=atmega1284p_20000000L_57600.hex
+atmega1284duino_20.bootloader.unlock_bits=0x3F
+atmega1284duino_20.bootloader.lock_bits=0x0F
+atmega1284duino_20.build.mcu=atmega1284p
+atmega1284duino_20.build.f_cpu=20000000L
+atmega1284duino_20.build.core=arduino
+atmega1284duino_20.build.variant=mega1284duino
+
+atmega1284duino_16.name=ATMega1284 (full 16MHz, boot, BOD=4V3)
+atmega1284duino_16.upload.protocol=stk500v1
+atmega1284duino_16.upload.maximum_size=126976
+atmega1284duino_16.upload.speed=57600
+atmega1284duino_16.bootloader.low_fuses=0xF7
+atmega1284duino_16.bootloader.high_fuses=0xD8
+atmega1284duino_16.bootloader.extended_fuses=0xFC
+atmega1284duino_16.bootloader.path=standard
+atmega1284duino_16.bootloader.file=atmega1284p_16000000L_57600.hex
+atmega1284duino_16.bootloader.unlock_bits=0x3F
+atmega1284duino_16.bootloader.lock_bits=0x0F
+atmega1284duino_16.build.mcu=atmega1284p
+atmega1284duino_16.build.f_cpu=16000000L
+atmega1284duino_16.build.core=arduino
+atmega1284duino_16.build.variant=mega1284duino
+
+atmega1284duino_12.name=ATMega1284 (full 12MHz, boot, BOD=2V7)
+atmega1284duino_12.upload.protocol=stk500v1
+atmega1284duino_12.upload.maximum_size=126976
+atmega1284duino_12.upload.speed=57600
+atmega1284duino_12.bootloader.low_fuses=0xF7
+atmega1284duino_12.bootloader.high_fuses=0xD8
+atmega1284duino_12.bootloader.extended_fuses=0xFD
+atmega1284duino_12.bootloader.path=standard
+atmega1284duino_12.bootloader.file=atmega1284p_12000000L_57600.hex
+atmega1284duino_12.bootloader.unlock_bits=0x3F
+atmega1284duino_12.bootloader.lock_bits=0x0F
+atmega1284duino_12.build.mcu=atmega1284p
+atmega1284duino_12.build.f_cpu=12000000L
+atmega1284duino_12.build.core=arduino
+atmega1284duino_12.build.variant=mega1284duino
+
+atmega1284duino_8.name=ATMega1284 (8MHz int, no boot, no BOD)
+atmega1284duino_8.upload.protocol=stk500v1
+atmega1284duino_8.upload.maximum_size=126976
+atmega1284duino_8.upload.speed=57600
+atmega1284duino_8.bootloader.low_fuses=0xE2
+atmega1284duino_8.bootloader.high_fuses=0xD1
+atmega1284duino_8.bootloader.extended_fuses=0xFF
+#atmega1284duino_8.bootloader.path=standard
+#atmega1284duino_8.bootloader.file=atmega1284p_8000000L_57600.hex
+atmega1284duino_8.bootloader.unlock_bits=0x3F
+atmega1284duino_8.bootloader.lock_bits=0x0F
+atmega1284duino_8.build.mcu=atmega1284p
+atmega1284duino_8.build.f_cpu=8000000L
+atmega1284duino_8.build.core=arduino
+atmega1284duino_8.build.variant=mega1284duino
+
+atmega1284duino_1.name=ATMega1284 (1MHz int, no boot, no BOD)
+atmega1284duino_1.upload.protocol=stk500v1
+atmega1284duino_1.upload.maximum_size=126976
+atmega1284duino_1.upload.speed=57600
+atmega1284duino_1.bootloader.low_fuses=0x62
+atmega1284duino_1.bootloader.high_fuses=0xD1
+atmega1284duino_1.bootloader.extended_fuses=0xFF
+#atmega1284duino_8.bootloader.path=standard
+#atmega1284duino_8.bootloader.file=atmega1284p_1000000L_57600.hex
+atmega1284duino_1.bootloader.unlock_bits=0x3F
+atmega1284duino_1.bootloader.lock_bits=0x0F
+atmega1284duino_1.build.mcu=atmega1284p
+atmega1284duino_1.build.f_cpu=1000000L
+atmega1284duino_1.build.core=arduino
+atmega1284duino_1.build.variant=mega1284duino
+
+
+
+
